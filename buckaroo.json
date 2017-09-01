@@ -1,4 +1,5 @@
 {
     "name": "mpc",
+    "target": "mpc",
     "license": "BSD"
 }
