@@ -1,11 +1,11 @@
 cxx_library(
   name = 'mpc',
+  licenses = ['LICENSE.md'],
   header_namespace = 'mpc',
-  exported_headers = subdir_glob([
-    ('.', '*.h'),
-  ]),
+  exported_headers = ['mpc.h'],
+  headers = ['mpc.h'],
   srcs = ['mpc.c'],
-  visibility = ['PUBLIC']
+  visibility = ['PUBLIC'],
 )
 
 cxx_test(
