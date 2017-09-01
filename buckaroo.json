@@ -1,0 +1,21 @@
+{
+    "name": "mpc",
+    "url": "https://https://github.com/zj5121/mpc.git",
+    "github": {
+        "owner": "zj5121",
+        "project": "mpc"
+    },
+    "version": {
+        "0.8.8" : {
+            "source": {
+                "url": "https://github.com/zj5121/mpc/archive/master.zip",
+                "sha256": "9a3956d0f3537c679e63b50cb6ee28260cb181eb6535adb2cc469cc636a9cada"
+            }
+        },
+        "buck": {
+            "url": "https://raw.githubusercontent.com/njlr/Beast/71d1bde64bf5ee52579441b00ad446959231d8d2/BUCK",
+            "sha256": "1dce5d9f5c883e193e54c2dfc033a5485b9e8e87bb34d8c38ab03ed148ccd968"
+        }
+    },
+    "license": "BSD"
+}
